@@ -1,0 +1,6 @@
+{
+    "pack": {
+        "description": "A chest capable of holding infinite stacks of items.",
+        "pack_format": 3
+    }
+}

@@ -1,15 +1,15 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
-  "url": "",
-  "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
-  "logoFile": "",
+  "modid": "endlesschestmod",
+  "name": "Endless Chest Mod",
+  "description": "A chest capable of holding an infinite amount of items.",
+  "version": "1.0.0",
+  "mcversion": "1.12.2",
+  "url": "https://github.com/kareiku/endless-chest-mod/releases",
+  "updateUrl": "https://github.com/kareiku/endless-chest-mod/releases",
+  "authorList": ["kareiku"],
+  "credits": "kareiku",
+  "logoFile": "./icon.png",
   "screenshots": [],
   "dependencies": []
 }

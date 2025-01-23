@@ -1,0 +1,9 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "MIT"
+[[mods]]
+modid = "endlesschestmod"
+version = "1.0.0"
+displayName = "Endless Chest Mod"
+authors = "kareiku"
+description = "A chest capable of holding an infinite amount of items."

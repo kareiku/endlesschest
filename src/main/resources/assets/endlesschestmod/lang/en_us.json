@@ -1,5 +1,4 @@
 {
-  "itemGroup.endlesschestmod": "Example Mod Tab",
-  "block.endlesschestmod.example_block": "Example Block",
-  "item.endlesschestmod.example_item": "Example Item"
+    "itemGroup.endlesschestmod": "Endless Chest Mod Tab",
+    "block.endlesschestmod.endless_chest": "Endless Chest"
 }

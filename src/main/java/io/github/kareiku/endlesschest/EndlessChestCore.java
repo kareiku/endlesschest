@@ -29,7 +29,8 @@ public class EndlessChestCore {
     );
 
     public static final DeferredBlock<Block> ENDLESS_CHEST_BLOCK = BLOCKS.registerSimpleBlock(
-            "endless_chest_block", BlockBehaviour.Properties.of()
+            "endless_chest",
+            BlockBehaviour.Properties.of()
                     .destroyTime(2.5f)
                     .explosionResistance(3600000)
                     .mapColor(MapColor.COLOR_PURPLE)
@@ -37,23 +38,23 @@ public class EndlessChestCore {
     );
 
     public static final DeferredItem<BlockItem> ENDLESS_CHEST_BLOCK_ITEM = ITEMS.registerSimpleBlockItem(
-            "endless_chest_item",
+            "endless_chest",
             ENDLESS_CHEST_BLOCK
     );
 
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> ENDLESS_CHEST_TAB = CREATIVE_MODE_TABS.register(
             "endless_chest_tab",
             () -> CreativeModeTab.builder()
+                    .displayItems((parameters, output) -> output.accept(ENDLESS_CHEST_BLOCK_ITEM.get()))
+                    .icon(() -> ENDLESS_CHEST_BLOCK_ITEM.get().getDefaultInstance())
                     .title(Component.translatable("itemGroup." + MOD_ID))
                     .withTabsBefore(CreativeModeTabs.COMBAT)
-                    .icon(() -> ENDLESS_CHEST_BLOCK_ITEM.get().getDefaultInstance())
-                    .displayItems((parameters, output) -> output.accept(ENDLESS_CHEST_BLOCK_ITEM.get())
-                    ).build()
+                    .build()
     );
 
     public EndlessChestCore(IEventBus modEventBus, ModContainer modContainer) {
         BLOCKS.register(modEventBus);
-        ITEMS.register(modEventBus);
         CREATIVE_MODE_TABS.register(modEventBus);
+        ITEMS.register(modEventBus);
     }
 }

@@ -1,4 +1,5 @@
 {
-    "block.endlesschest.endless_chest": "Endless Chest",
-    "endlesschest.container.endless_chest": "Endless Chest"
+    "block.endlesschest": "Endless Chest Block",
+    "item.endlesschest": "Endless Chest Item",
+    "itemGroup.endlesschest": "Endless Chest Tab"
 }

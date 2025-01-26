@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "I": {
+            "item": "minecraft:iron_ingot"
+        },
+        "C": {
+            "item": "minecraft:chest"
+        },
+        "B": {
+            "item": "minecraft:barrel"
+        }
+    },
+    "pattern": [
+        "ICI",
+        "CBC",
+        "ICI"
+    ],
+    "result": {
+        "count": 1,
+        "id": "endlesschest:endless_chest"
+    }
+}

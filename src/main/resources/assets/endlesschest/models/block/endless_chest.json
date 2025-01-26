@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:block/generated",
     "textures": {
-        "layer0": "endlesschest:model/endless_chest.png"
+        "layer0": "endlesschest:model/endless_chest"
     }
 }

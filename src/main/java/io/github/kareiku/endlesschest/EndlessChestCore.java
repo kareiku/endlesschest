@@ -32,7 +32,7 @@ public class EndlessChestCore {
             "endless_chest",
             BlockBehaviour.Properties.of()
                     .destroyTime(2.5f)
-                    .explosionResistance(3600000)
+                    .explosionResistance(3600000f)
                     .mapColor(MapColor.COLOR_PURPLE)
                     .sound(SoundType.WOOD)
     );
